@@ -61,9 +61,8 @@ class Manager {
   hire(employee) {
     this.reports.push(employee)
   }
-  fire(employee) {
-    var id = this.reports.indexOf()
-    this.reports.splice(id - 1, 1)
+  fire(index) {
+    this.reports.splice(index, 1)
   }
 }
 
